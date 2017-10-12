@@ -61,3 +61,4 @@ Patch-Requirement -Name 'libxml2';
 Patch-Requirement -Name 'pixman';
 Patch-Requirement -Name 'cairo';
 Patch-Requirement -Name 'icu';
+Patch-Requirement -Name 'pthreads';
