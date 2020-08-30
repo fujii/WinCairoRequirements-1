@@ -18,6 +18,7 @@ vcpkg_download_distfile(ARCHIVE
 # Patches
 set(PATCHES
     ${CMAKE_CURRENT_LIST_DIR}/patches/0001-Rename-stat-to-stats.patch
+    ${CMAKE_CURRENT_LIST_DIR}/patches/0002-DirectWrite.patch
 )
 
 # Extract archive

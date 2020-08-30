@@ -15,6 +15,7 @@ endif()
 if(WIN32)
     set(CAIRO_HAS_WIN32_SURFACE 1)
     set(CAIRO_HAS_WIN32_FONT 1)
+    set(CAIRO_HAS_DWRITE_FONT 1)
 endif()
 
 if(COGL_FOUND)

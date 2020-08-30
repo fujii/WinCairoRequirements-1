@@ -315,6 +315,7 @@ set(cairo_quartz_font_sources cairo-quartz-font.c)
 set(cairo_win32_headers cairo-win32.h)
 set(cairo_win32_private win32/cairo-win32-private.h)
 set(cairo_win32_sources 
+    win32/cairo-dwrite-font.cpp
     win32/cairo-win32-debug.c
     win32/cairo-win32-device.c
     win32/cairo-win32-gdi-compositor.c
